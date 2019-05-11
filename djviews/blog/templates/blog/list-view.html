@@ -1,0 +1,18 @@
+<form method="GET" action="/blog/">
+<input type="text" name="q" placeholder="search">
+
+</form>
+
+
+<h1>Hello World</h1>
+
+<ul>
+    {% for object in object_list %}
+    <li>{{object.id}} <a href="{% url 'blog:detail' id=object.id %}">{{ object.title }}</a></li>
+    {% endfor %}
+    <li>New Post</li>
+</ul>
+
+{{ array_list }}
+{{ num }}
+{{ boolean_value }}
