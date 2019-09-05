@@ -1,0 +1,27 @@
+<h1>{{ viewTitle|upper }}</h1>
+
+{{ abc|add:addNum }}
+
+<style>
+    .bold{
+        font-weight: bold;
+    }
+</style>
+
+<ul>
+{% for item in objects %}
+   <li {% if forloop.counter|divisibleby:2 %}class="bold" style="font-weight:bold;"{% endif %}> {{ item }}</li>
+{% endfor %}
+    </ul>
+
+<ul>
+{% for item in objects %}
+   <li {% if forloop.first %}class="bold" style="font-weight:bold;"{% endif %}> {{ item }}</li>
+{% endfor %}
+    </ul>
+
+
+{% for item in objects %}
+   <li class='{% cycle "" "" "bold" %}'> {{ item }}</li>
+{% endfor %}
+    </ul>

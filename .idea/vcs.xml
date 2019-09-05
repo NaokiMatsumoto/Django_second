@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Rest-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/class_based" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dfforms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/djtemplates" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/try_cbv" vcs="Git" />
   </component>
 </project>
